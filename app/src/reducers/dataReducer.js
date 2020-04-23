@@ -20,10 +20,10 @@ export const dataReducer = (state = initialValue, action) => {
     case "NEW_DATA":
       return {
         ...state,
+        //////
         // push
         loading: false,
         data: action.payload,
-        ///jhahhahha
       };
     case "ERROR":
       return {
